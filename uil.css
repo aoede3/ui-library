@@ -1,0 +1,190 @@
+	span.uilib_csh_wrap {
+        background-color:#fff;
+			border:1px solid #cccccc;
+		border-color:#298bdf;
+		display:block;
+		outline:0;
+        padding:10px;
+		/*position:absolute;*/
+		text-align: left;
+        width:200px;
+		z-index:1000;
+		border-radius:5px;	
+			-moz-border-radius:5px;
+			-ie-border-radius:5px;
+			-webkit-border-radius:5px;
+			-o-border-radius:5px;
+		box-shadow:inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(15, 162, 75, 0.6);  
+			-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(15, 162, 75, 0.6);			
+    }
+	
+	span.uilib_csh_close {
+		/*border: 1px solid #000;*/
+		background: url(../images/remove.png) no-repeat;
+		cursor:pointer;
+		display: block;
+		float:right;
+		height: 16px;
+		/*padding:3px;
+		position:absolute;
+			top: 8px;
+			right: 8px;*/
+		position:relative;
+		width: 16px;	
+		z-index:1000;
+	}
+	
+	span.uilib_csh_content p {
+		margin-top:0;
+	}
+	
+	/* Right Box */
+	.csh_right span.uilib_csh_arrow {
+		width:0px;
+		height:0px;
+		border-top:10px solid transparent;
+		border-bottom:10px solid transparent;
+		border-right:10px solid #298bdf;
+		position:absolute;
+			top:5px;
+			left:-10px;
+	}
+	.csh_right span.uilib_csh_arrow_inner {
+		width:0px;
+		height:0px;
+		border-top:10px solid transparent;
+		border-bottom:10px solid transparent;
+		border-right:10px solid #fff;
+		position:absolute;
+			top:5px;
+			left:-8.7px;		
+	}
+	.csh_right span.uilib_csh_arrow_shadow {
+		background-color:transparent;
+		width:0px;
+		position:absolute;
+			top:6px;
+			left:-10px;	
+		z-index:-10;
+		box-shadow:8px 8px 8px 8px #298bdf;
+			-moz-box-shadow:8px 8px 8px 8px #298bdf;
+			-webkit-box-shadow:8px 8px 8px 8px #298bdf;
+	} 
+	
+	/* Bottom Arrow */
+	.csh_top span.uilib_csh_arrow {
+		border-left:10px solid transparent;
+		border-right:10px solid transparent;
+		border-top:10px solid #298bdf;
+		position:absolute;
+			top: auto;
+			right: 5px;		
+			bottom:-10px;
+			left:auto;
+	}
+	.csh_top span.uilib_csh_arrow_inner {
+		border-left:10px solid transparent;
+		border-right:10px solid transparent;
+		border-top:10px solid #fff;
+		position:absolute;
+			top: auto;
+			right: 5px;
+			bottom:-9px;
+			left:auto;		
+	}
+	.csh_top span.uilib_csh_arrow_shadow {
+		position:absolute;
+			top: auto;
+			right: 23px;		
+			bottom:6px;
+			left:auto;
+		z-index:-10;
+		box-shadow:8px 8px 8px 8px #298bdf;
+			-moz-box-shadow:8px 8px 8px 8px #298bdf;
+			-webkit-box-shadow:8px 8px 8px 8px #298bdf;
+	}
+	/* Left box */
+	.csh_left span.uilib_csh_arrow {
+		border-top:10px solid transparent;
+		border-bottom:10px solid transparent;
+		border-left:10px solid #298bdf;
+		position:absolute;
+			top: 5px;
+			right: -10px;		
+			bottom:auto;
+			left: auto;
+	}
+	.csh_left span.uilib_csh_arrow_inner {
+		border-top:10px solid transparent;
+		border-bottom:10px solid transparent;
+		border-left:10px solid #fff;
+		position:absolute;
+			top: 5px;
+			right: -9px;		
+			bottom:auto;
+			left: auto;	
+	}
+	.csh_left span.uilib_csh_arrow_shadow {
+		position:absolute;
+			top: 7px;
+			right: 5px;		
+			bottom:auto;
+			left: auto;
+		z-index:-10;
+		box-shadow:8px 8px 8px 8px #298bdf;
+			-moz-box-shadow:8px 8px 8px 8px #298bdf;
+			-webkit-box-shadow:8px 8px 8px 8px #298bdf;
+	}	
+	/* Bottom box */
+	.csh_bottom span.uilib_csh_arrow {
+		border-left:10px solid transparent;
+		border-right:10px solid transparent;
+		border-bottom:10px solid #298bdf;
+		position:absolute;
+			top: -10px;
+			right: auto;		
+			bottom:auto;
+			right:5px;
+	}
+	.csh_bottom span.uilib_csh_arrow_inner {
+		border-left:10px solid transparent;
+		border-right:10px solid transparent;
+		border-bottom:10px solid #fff;
+		position:absolute;
+			top: -8px;
+			right: auto;
+			bottom:auto;
+			right:5px;		
+	}
+	.csh_bottom span.uilib_csh_arrow_shadow {
+		position:absolute;
+			top: -8px;
+			right: 24px;		
+			bottom:auto;
+			left:auto;
+		z-index:-10;
+		box-shadow:9px 5px 9px 5px #298bdf;
+			-moz-box-shadow:9px 5px 9px 5px #298bdf;
+			-webkit-box-shadow:9px 5px 9px 5px #298bdf;
+	}		
+	span.uilib_csh {
+		background:url('help.png') no-repeat left top;
+		display:inline-block;
+		height:21px;
+		padding-left:21px;
+		position:relative;
+		vertical-align:middle;
+	}
+	span.uilib_csh span.tooltip {
+		display: none;
+	}
+	span.uilib_csh span.uilib_csh_tip {
+		margin: -4px 2px;
+		position:absolute;
+		z-index:1000;
+	}
+	span.uilib_csh_content span.tooltip {
+		background:#fff;
+		display:inline;
+		position:relative;
+	}
